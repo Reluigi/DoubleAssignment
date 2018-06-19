@@ -10,11 +10,15 @@
 
 ___
 
+### Introduction
+This project is about the generation of natural language sentences by developing a software module which uses the onboard speakers and allows a robot ([Robot Double](https://www.doublerobotics.com)) to compose and utter sentences describing its internal state in response to a request.
+___
+
 ### Project plan
 
 Work has been divided in two sub-programs:
 - Develop an iOS application in swift to be run in the robot
-- Develop a python server to be run in a computer 
+- Develop a python server to be run in a computer.   
 We decided to use a separate server for two main reasons: the first is the possibility to reuse the speech generation with any device or sofware and the other reason is to work on the project even without a mac OS device.
 
 Main phases of the project:
